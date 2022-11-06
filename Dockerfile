@@ -10,6 +10,7 @@ LABEL maintainer="aptalca"
 RUN \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
+    python3 \
     logrotate \
     nano \
     netcat-openbsd \
